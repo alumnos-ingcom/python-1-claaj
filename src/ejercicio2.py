@@ -1,6 +1,6 @@
 ################
 # Matías Cajal - @claaj
-# UNRN Andina - Introducción a la Ingenieria en Computación
+# UNRN Andina - Introducción a la Ingeniería en Computación
 ################
 
 """
@@ -11,10 +11,7 @@ negativo o cero utilizando sumas y restas.
 
 def signo(num):
     """
-    Función que devuelve:
-        a) 1 si es positivo.
-        b) 0 si es cero.
-        c) -1 si es negativo.
+    Función que devuelve si un número es positivo, negativo o cero
     """
     if num + 1 <= 0:
         signo_numero = 'negativo'

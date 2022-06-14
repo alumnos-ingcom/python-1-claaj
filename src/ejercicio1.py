@@ -12,10 +12,10 @@ utilice esta formula para calcular los grados centígrados y retorne el resultad
 """
 
 def convertir_a_fahrrenheit(centigrados): #función para convertir de °C a °F
-    return (centigrados * 9/5) + 32
+    return ((centigrados * 9/5) + 32)
 
 def convertir_a_centigrados(fahrenheit): #función para convertir de °F a °C
-    return (fahrenheit - 32) / (9/5)
+    return ((fahrenheit - 32) / (9/5))
 
 def principal():
     """
@@ -26,12 +26,12 @@ def principal():
     opcion = int(input('Convertir a:\n 1) Centigrados\n 2) Fahrenheit\n Ingrese la opción elegida: '))
 
     if opcion == 1: # Si es 1 se pide el valor en centigrados e imprime la conversión
-        valor = float(input('Ingrese valor en centigrados: '))
-        print(f'{valor} °C equivale a {convertir_a_fahrrenheit(valor)} °F')
+        valor = float(input(' Ingrese valor en centigrados: '))
+        print(f' {valor:.2f}°C equivale a {convertir_a_fahrrenheit(valor):.2f}°F')
 
     elif opcion == 2: #Si es 2 se pide el valor en fahrenheit e imprime  la conversión
         valor = float(input('Ingrese valor en fahrenheit: '))
-        print(f'{valor} °F equivale a {convertir_a_centigrados(valor)} °C')
+        print(f' {valor:.2f}°F equivale a {convertir_a_centigrados(valor):.2f}°C')
 
     else: # En caso de no 1 o 2 se imprime el error
         print('Opción inválida, corra de nuevo el programa e intente nuevamente.')

@@ -1,6 +1,6 @@
 ################
 # Matías Cajal - @claaj
-# UNRN Andina - Introducción a la Ingenieria en Computación
+# UNRN Andina - Introducción a la Ingeniería en Computación
 ################
 
 """

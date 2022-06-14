@@ -11,10 +11,16 @@ Escribir las funciones para convertir la temperatura en grados centigrados en fa
 utilice esta formula para calcular los grados centígrados y retorne el resultado obtenido. Y viceversa.
 """
 
-def convertir_a_fahrrenheit(centigrados): #función para convertir de °C a °F
+def convertir_a_fahrrenheit(centigrados):
+    """
+    función que en base a un valor en °C devuelve la conversión de a °F.
+    """
     return ((centigrados * 9/5) + 32)
 
-def convertir_a_centigrados(fahrenheit): #función para convertir de °F a °C
+def convertir_a_centigrados(fahrenheit):
+    """
+    función que en base a un valor en °F devuelve la conversión de a °C.
+    """
     return ((fahrenheit - 32) / (9/5))
 
 def principal():

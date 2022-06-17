@@ -10,7 +10,7 @@ import pytest
 
 from src.ejercicio8 import es_primo
 
-def test_no_es_primo_negativo():
+def test_es_primo_negativo():
     """
     Probando la devolución de la función cuando se da como argumento
     un número negativo
@@ -20,7 +20,7 @@ def test_no_es_primo_negativo():
     assert isinstance(devolucion,bool), 'La devolución debe ser de tipo booleana'
     assert devolucion == False, 'La devolución debe ser False'
     
-def test_es_primo_positivo():
+def es_primo_positivo():
     """
     Probando la devolución de la función cuando se da como argumento
     un número positivo que es primo
@@ -30,7 +30,7 @@ def test_es_primo_positivo():
     assert isinstance(devolucion,bool), 'La devolución debe ser de tipo booleana'
     assert devolucion == True, 'La devolución debe ser "True"'
     
-def test_no_es_primo_positivo():
+def no_es_primo_positivo():
     """
     Probando la devolución de la función cuando se da como argumento
     un número positivo que no es primo
@@ -40,7 +40,7 @@ def test_no_es_primo_positivo():
     assert isinstance(devolucion,bool), 'La devolución debe ser de tipo booleana'
     assert devolucion == False, 'La devolución debe ser "False"'
     
-def test_es_primo_cero():
+def es_primo_cero():
     """
     Probando la devolución de la función cuando se da como argumento 0
     """

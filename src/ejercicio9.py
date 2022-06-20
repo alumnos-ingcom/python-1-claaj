@@ -2,6 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Se ingresa un número.
+#POS: Se devuelve una tupla con los factores primos.
 
 """
 9. Factores Primos

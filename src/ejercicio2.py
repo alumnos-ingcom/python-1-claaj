@@ -2,7 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
-
+# PRE: Se ingresa al programa un número.
+#POS: Se indica si el numero es cero, positivo o negativo.
 """
 2. Números positivos y negativos
 Escribir una función que reciba un número e indique si el mismo es positivo,

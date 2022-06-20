@@ -2,6 +2,9 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+# PRE: Un Valor en C° o en F°
+# POS: Si se indica que el valor ingresado estaba en C° lo convierte a F° y si indica que estaba en F° lo contrario.
+#
 
 """
 1. Conversión de temperaturas

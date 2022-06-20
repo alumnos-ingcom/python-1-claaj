@@ -2,6 +2,9 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Dos numeros enteros
+#POS: Devuelve el cociente y resto de la división entre el primer numero ingresado y el segundo
+
 
 """
 5. Divisiones

@@ -2,6 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Se ingresan dos numeros
+#POS: Devuelve True si el primero es multiplo del segundo, sino devuelve false
 
 """
 11. Multiplos de

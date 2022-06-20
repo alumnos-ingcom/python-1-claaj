@@ -2,6 +2,9 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Se ingresa una palabra
+#POS: Se devuelve True si es palindromo o false si no lo es.
+
 
 """
 10. Palíndromo

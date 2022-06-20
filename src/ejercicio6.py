@@ -2,6 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Se ingresa al programa 3 valores
+#POS: Se devuelve dos tuplas, una odernada de mayor a menor y la de menor a mayor
 
 """
 6. Ordenar 3 valores
@@ -19,7 +21,7 @@ def ordenar_mayor_menor(numeros):
             if numeros[j] > numeros[mayor_num]:
                 mayor_num = j
         numeros[i], numeros[mayor_num] = numeros[mayor_num], numeros[i]
-    return numeros
+    return numeros[0], numeros[1], numeros[2]
 
 def ordenar_menor_mayor(numeros):
     """
@@ -32,7 +34,7 @@ def ordenar_menor_mayor(numeros):
             if numeros[j] < numeros[menor_num]:
                 menor_num = j
         numeros[i], numeros[menor_num] = numeros[menor_num], numeros[i]
-    return numeros
+    return numeros[0], numeros[1], numeros[2]
 
 def principal():
     """

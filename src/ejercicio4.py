@@ -2,6 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Dos números enteros
+#POS:La suma de estos dos números
 
 """
 4. Suma lenta

@@ -2,7 +2,8 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
-
+#PRE: Se ingresa un número
+#POS: Se devuelve si el número es primo o no
 """
 8. Números primos
 

@@ -2,6 +2,9 @@
 # Matías Cajal - @claaj
 # UNRN Andina - Introducción a la Ingeniería en Computación
 ################
+#PRE: Si se ingresan segundos se convierte a grados minutos segundos, sino al revés
+#POS: Se devuelven segundos si se ingreso grados minutos segundos, sino se devuelven
+#grados minutos y segundos.
 
 """
 7. Transformación de un número

@@ -19,8 +19,8 @@ def test_mayor_menor():
     """
     global vector_prueba
     devolucion = ordenar_mayor_menor(vector_prueba)
-    assert isinstance(devolucion,list), 'El resultado debe ser una lista'
-    assert devolucion == [1000, 500, -1], 'Debe devolver [1000, 500, -1]'
+    assert isinstance(devolucion,tuple), 'El resultado debe ser una tupla'
+    assert devolucion == (1000, 500, -1), 'Debe devolver (1000, 500, -1)'
 
 def test_menor_mayor():
     """
@@ -28,5 +28,5 @@ def test_menor_mayor():
     """
     global vector_prueba
     devolucion = ordenar_menor_mayor(vector_prueba)
-    assert isinstance(devolucion,list), 'El resultado debe ser una lista'
-    assert devolucion == [-1, 500, 1000], 'Debe devolver [-1, 500, 1000]'
+    assert isinstance(devolucion,tuple), 'El resultado debe ser una tupla'
+    assert devolucion == (-1, 500, 1000), 'Debe devolver (-1, 500, 1000)'

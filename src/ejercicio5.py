@@ -18,7 +18,6 @@ def division_lenta(dividendo, divisor):
     Función que resuelve una división utilizando resta.
     """
     try:
-        i = 0
         cociente = 0
         num = abs(dividendo)
         signo = (dividendo/abs(dividendo)) * (divisor/abs(divisor))
